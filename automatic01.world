@@ -1,0 +1,109 @@
+# defines 'map' object used for floorplans
+include "map.inc"
+
+# defines sick laser
+include "sick.inc"
+
+# defines Pioneer-like robots
+include "pioneer.inc"
+
+# set the resolution of the underlying raytrace model in meters
+resolution 0.1
+
+speedup -1
+
+# configure the GUI window
+window
+( 
+  size [ 591.000 638.000 ] 
+  center [ 100 100 ] 
+  show_data 1
+)
+define robot pioneer2dx
+(
+sicklaser ()
+size [0.44 0.44 0.44]
+localization "gps"
+localization_origin [ 0 0 0 0 ]
+)
+
+robot
+(
+  name "robot0"
+  color "red"
+  pose [101.15 91.688 0 97.8744]
+  ctrl "coordination.so 0 10 1"
+)
+
+robot
+(
+  name "robot1"
+  color "red"
+  pose [96.861 95.6147 0 54.405]
+  ctrl "coordination.so 1 10 1"
+)
+
+robot
+(
+  name "robot2"
+  color "red"
+  pose [93.5096 105.066 0 -37.9754]
+  ctrl "coordination.so 2 10 1"
+)
+
+robot
+(
+  name "robot3"
+  color "red"
+  pose [102.851 106.783 0 -112.798]
+  ctrl "coordination.so 3 10 1"
+)
+
+robot
+(
+  name "robot4"
+  color "red"
+  pose [111.134 94.7445 0 154.73]
+  ctrl "coordination.so 4 10 1"
+)
+
+robot
+(
+  name "robot5"
+  color "red"
+  pose [99.6511 104.562 0 -85.6268]
+  ctrl "coordination.so 5 10 1"
+)
+
+robot
+(
+  name "robot6"
+  color "red"
+  pose [108.205 99.3371 0 175.381]
+  ctrl "coordination.so 6 10 1"
+)
+
+robot
+(
+  name "robot7"
+  color "red"
+  pose [103.55 110.757 0 -108.263]
+  ctrl "coordination.so 7 10 1"
+)
+
+robot
+(
+  name "robot8"
+  color "red"
+  pose [100.367 105.569 0 -93.7689]
+  ctrl "coordination.so 8 10 1"
+)
+
+robot
+(
+  name "robot9"
+  color "red"
+  pose [96.9359 109.324 0 -71.8077]
+  ctrl "coordination.so 9 10 1"
+)
+

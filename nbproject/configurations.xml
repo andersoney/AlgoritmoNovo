@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+      <itemPath>Connection.h</itemPath>
+      <itemPath>ControllerPrincipal.h</itemPath>
+      <itemPath>Makefile</itemPath>
+      <itemPath>README.md</itemPath>
+      <itemPath>analise.sh</itemPath>
+      <itemPath>createScenarioConfig.h</itemPath>
+      <itemPath>includeS.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <itemPath>Connection.cpp</itemPath>
+      <itemPath>ControllerPrincipal.cpp</itemPath>
+      <itemPath>createScenario.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>option.hh</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de Recurso"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Connection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Connection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ControllerPrincipal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ControllerPrincipal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FinalLog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FinalLog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ModuloAFA.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ModuloAFA.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="analise.sh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="createScenario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="createScenarioConfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="includeS.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="option.hh" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Connection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Connection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ControllerPrincipal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ControllerPrincipal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FinalLog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FinalLog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ModuloAFA.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ModuloAFA.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="analise.sh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="createScenario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="createScenarioConfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="includeS.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="option.hh" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
