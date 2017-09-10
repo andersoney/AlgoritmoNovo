@@ -17,7 +17,7 @@
 #include "Connection.h"
 
 int main(){
-    controller = new ControllerPrincipal(null, null, tokens);
+    ControllerPrincipal *controller = new ControllerPrincipal();
 }
 
 int CallBack(Model *pos, ControllerPrincipal *controller);
@@ -27,7 +27,7 @@ void Tokenize(const string &str,
  * 
  */
 ControllerPrincipal *controller;
-
+/*
 extern "C" int Init(Model *mod, CtrlArgs *args) {
     vector<string> tokens;
     Tokenize(args->worldfile, tokens);
@@ -44,13 +44,12 @@ extern "C" int Init(Model *mod, CtrlArgs *args) {
     //robot->init(atoi(tokens[1].c_str()));
     return 0;
 }
-
+*/
 int CallBack(Model *pos, ControllerPrincipal *controller) {
     cout << endl << endl;
     controller->runnig();
     return 0;
 }
-/*
 void Tokenize(const string &str,
         vector<string> &tokens) {
     const string &delimiters = " ";
@@ -67,4 +66,4 @@ void Tokenize(const string &str,
         // Find next "non-delimiter"
         pos = str.find_first_of(delimiters, lastPos);
     }
-}*/
+}
