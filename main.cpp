@@ -16,6 +16,10 @@
 #include "includeS.h"
 #include "Connection.h"
 
+int main(){
+    controller = new ControllerPrincipal(null, null, tokens);
+}
+
 int CallBack(Model *pos, ControllerPrincipal *controller);
 void Tokenize(const string &str,
         vector<string> &tokens);
@@ -46,7 +50,7 @@ int CallBack(Model *pos, ControllerPrincipal *controller) {
     controller->runnig();
     return 0;
 }
-
+/*
 void Tokenize(const string &str,
         vector<string> &tokens) {
     const string &delimiters = " ";
@@ -63,4 +67,4 @@ void Tokenize(const string &str,
         // Find next "non-delimiter"
         pos = str.find_first_of(delimiters, lastPos);
     }
-}
+}*/

@@ -16,7 +16,7 @@
 Connection::Connection() {
 }
 
-Connection *Connection::getInstance() {
+static Connection *Connection::getInstance() {
     if (!Connection::sinstance)
         Connection::sinstance = new Connection();
     return Connection::sinstance;
